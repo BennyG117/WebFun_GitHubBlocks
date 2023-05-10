@@ -6,14 +6,16 @@ h1 {
 }
 
 .centerBlock {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    /* position rows center */    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
-height: 200px;
+/* all images are same height */    
+    height: 200px;
 }
 
 .row1 {
@@ -56,6 +58,7 @@ h5 {
 }
 
 span {
+    /* split color text @ bottom */    
     color: aqua;
     text-decoration: underline;
 }
