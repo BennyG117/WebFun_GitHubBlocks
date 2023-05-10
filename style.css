@@ -17,38 +17,25 @@ img {
 /* all images are same height */    
     height: 200px;
 }
-
-.row1 {
+.row {
     height: 210px;
     width: 900px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: cornflowerblue;
     margin: 15px;
     padding: 15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row1 {
+    background-color: cornflowerblue;
 }
 
 .row2 {
-    height: 210px;
-    width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     background-color: lightcoral;
-    margin: 15px;
-    padding: 15px;
 }
 
 .row3 {
-    height: 210px;
-    width: 900px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     background-color: rgb(239, 235, 235);
-    margin: 15px;
-    padding: 15px;
 }
 
 h5 {
